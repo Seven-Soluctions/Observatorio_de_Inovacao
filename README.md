@@ -13,17 +13,6 @@ Desenvolver o Observatório de Inovação de São José dos Campos, uma soluçã
 * [Critérios de Aceitação](#critérios-de-aceitação)
 * [Competências desenvolvidas](#competências-desenvolvidas)
 * [Registro das Sprints](#registro-das-sprints)
-# Índice
-* [Projeto (API)](#projeto-api)
-* [Equipe](#equipe)
-* [Objetivo do Projeto](#objetivo-do-projeto)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Fonte dos Dados](#fonte-dos-dados)
-* [Personas](#personas)
-* [Product Backlog](#product-backlog)
-* [Critérios de Aceitação](#critérios-de-aceitação)
-* [Competências desenvolvidas](#competências-desenvolvidas)
-* [Registro das Sprints](#registro-das-sprints)
 
 
 # Projeto (API)
