@@ -1,4 +1,8 @@
 
+
+
+
+
 # 📌 MVP - Sprint 2: Modelagem dos Dados e Painel de Indicadores do Observatório
 
 ## 🎯 Objetivo do MVP
@@ -93,7 +97,7 @@ LINK_DO_VIDEO
 
 **Página Início**
 
-![Página Início](img/01_pagina_inicial.png)
+<img width="1912" height="1064" alt="Captura de tela 2026-11-02 203924" src="https://github.com/user-attachments/assets/c876431d-2e3e-4c13-b530-d96e7028f3d6" />
 
 **Página Indicadores Econômicos**
 
