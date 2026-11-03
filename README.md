@@ -1,5 +1,18 @@
-📊 **Acesse o painel:** [Observatório de Inovação de São José dos Campos](https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
+# Aprendizado por Projeto Integrado - Seven Solutions 1° Semestre (API)
 
+Desenvolver o Observatório de Inovação de São José dos Campos, uma solução de análise e visualização de dados em Power BI que mapeia o ecossistema industrial e de serviços do município a partir da RAIS, em parceria com o CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos.
+
+# Índice
+* [Projeto (API)](#projeto-api)
+* [Equipe](#equipe)
+* [Objetivo do Projeto](#objetivo-do-projeto)
+* [Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [Fonte dos Dados](#fonte-dos-dados)
+* [Personas](#personas)
+* [Product Backlog](#product-backlog)
+* [Critérios de Aceitação](#critérios-de-aceitação)
+* [Competências desenvolvidas](#competências-desenvolvidas)
+* [Registro das Sprints](#registro-das-sprints)
 # Índice
 * [Projeto (API)](#projeto-api)
 * [Equipe](#equipe)
