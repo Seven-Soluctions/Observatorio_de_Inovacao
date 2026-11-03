@@ -109,4 +109,5 @@ LINK_DO_VIDEO
 
 
 - Plataforma BI: https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9
-- Relatório da Sprint 2: [TRABALHO_API_final.docx](https://github.com/user-attachments/files/34300490/TRABALHO_API_final.docx)
+- Relatório da Sprint 2: [Relatório_Sprint2.docx](https://github.com/user-attachments/files/34300636/Relatorio_Sprint2.docx)
+
