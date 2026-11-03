@@ -95,6 +95,8 @@
 
 LINK_DO_VIDEO
 
+https://github.com/user-attachments/assets/8593fb50-1975-4d2e-b786-70efa1943553
+
 **Página Início**
 
 <img width="1912" height="1064" alt="Captura de tela 2026-11-02 203924" src="https://github.com/user-attachments/assets/c876431d-2e3e-4c13-b530-d96e7028f3d6" />
