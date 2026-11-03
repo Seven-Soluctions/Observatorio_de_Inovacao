@@ -120,6 +120,6 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
 | 01                | 28/09/2026 | entregue | [MVP](MVP/sp1.md)  |
-| 02                | 02/11/2026 | entregue | [MVP]([MVP/sp2.md](https://github.com/Seven-Soluctions/Observatorio_de_Inovacao/tree/main/MVP))  |
+| 02                | 02/11/2026 | entregue | [MVP](https://github.com/Seven-Soluctions/Observatorio_de_Inovacao/tree/main/MVP)  |
 | 03                | dd/mm/aaaa | a fazer  | [MVP](MVP/sp3.md)  |
 | Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
