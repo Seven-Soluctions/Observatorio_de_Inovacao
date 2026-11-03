@@ -101,11 +101,11 @@ LINK_DO_VIDEO
 
 **Página Indicadores Econômicos**
 
-![Página Indicadores Econômicos](img/02_indicadores_economicos.png)
+<img width="1910" height="1057" alt="Captura de tela 2026-11-02 203940" src="https://github.com/user-attachments/assets/2b27e5f8-f231-47cb-beda-349d06bee3ee" />
 
 **Página Distribuição Geográfica**
 
-![Página Distribuição Geográfica](img/03_distribuicao_geografica.png)
+<img width="1917" height="1078" alt="Captura de tela 2026-11-02 203955" src="https://github.com/user-attachments/assets/90e64b2e-6310-48f5-9266-72be116d0c3a" />
 
 - Plataforma BI: https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9
-- Relatório da Sprint 2: LINK_DO_RELATORIO
+- Relatório da Sprint 2: [TRABALHO_API_final.docx](https://github.com/user-attachments/files/34300490/TRABALHO_API_final.docx)
