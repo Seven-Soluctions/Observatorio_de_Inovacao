@@ -92,7 +92,7 @@
 
 **Vídeo explicativo:**
 
-[PREENCHER: arraste aqui o vídeo da Sprint 1]
+https://github.com/user-attachments/assets/16512ea3-3a93-4f64-bce4-770e60a05f72
 
 **Painel da Sprint 1**
 
