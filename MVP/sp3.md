@@ -108,5 +108,5 @@
 
 <img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/5afe7264-669f-4e30-be40-542598704c5d" />
 
-- Plataforma BI: `https://app.powerbi.com/view?r=eyJrIjoiNDMzZTJlYmYtZTVhOC00OGQ5LTk1MjAtMjRhZTdmYzI0NWRhIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9`
+- Plataforma BI: https://app.powerbi.com/view?r=eyJrIjoiNDMzZTJlYmYtZTVhOC00OGQ5LTk1MjAtMjRhZTdmYzI0NWRhIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9
 - Relatório da Sprint 3: `[PREENCHER: link do relatório]`
