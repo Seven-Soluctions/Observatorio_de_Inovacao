@@ -94,7 +94,7 @@
 
 **Vídeo explicativo:**
 
-`[PREENCHER: link do vídeo da Sprint 3]`
+https://github.com/user-attachments/assets/04d8bdab-3866-4c99-9a2c-cf74f49cc3b2
 
 **Página Início**
 
