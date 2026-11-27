@@ -15,7 +15,7 @@
     - Nova página **Comparação entre Setores**, com vínculos ativos, estabelecimentos, participação no emprego formal e média de vínculos por estabelecimento para Agropecuária, Indústria, Construção, Comércio e Serviços, lado a lado.
     - Ranking das atividades (subclasse CNAE 2.0) que mais geram empregos formais, com a participação acumulada de cada uma no total de vínculos.
     - Hierarquia da CNAE 2.0 (seção, divisão, grupo, classe e subclasse) na tabela dimensão de atividade, com navegação por níveis (*drill down*) nos visuais.
-    - Nova página **Cadeias Produtivas**, que agrupa as atividades nos macroprocessos produtivos relevantes para o município `[PREENCHER: confirmar a lista usada no painel, por exemplo aeroespacial e defesa, automotiva, química e petroquímica, saúde, tecnologia da informação e logística]`, com vínculos, estabelecimentos e atividades de cada cadeia.
+    - Nova página **Cadeias Produtivas**, que agrupa as atividades nos macroprocessos produtivos relevantes para o município, com vínculos, estabelecimentos e atividades de cada cadeia. Foram consideradas as 19 atividades (subclasse CNAE 2.0) com mais de 2.000 vínculos ativos cada, que somam 72.247 vínculos (cerca de 35% do total), associadas a dez macroprocessos: serviços de apoio às empresas (19.657 vínculos), aeroespacial e defesa (11.069), saúde (10.359), varejo e abastecimento (7.429), alimentação (6.861), educação (4.346), engenharia e serviços técnicos (3.628), automotiva (3.415), construção civil (2.947) e logística e transporte (2.536). As demais atividades ficam em "Demais atividades".
     - Relação dos CEPs da RAIS com as **zonas e os bairros de São José dos Campos**, a partir da base do Mendeley Data, para agrupar os estabelecimentos e os vínculos por zona e bairro.
     - Filtros por cadeia produtiva e por zona e bairro, somados aos filtros de porte da empresa, subsetor IBGE e subclasse CNAE 2.0 da Sprint 2.
     - Ajustes de usabilidade apontados na Sprint 2, todos implementados: ordenação da tabela de atividades e das faixas de porte da empresa e agrupamento dos CEPs por zona e bairro da cidade.
@@ -104,9 +104,38 @@
         - **Comércio:** 45.491 vínculos (22%) em 5.240 estabelecimentos, todos CLT. O emprego se concentra em empresas de menor porte e no varejo: supermercados (5.338), vestuário e acessórios (2.091), hipermercados (1.783) e produtos farmacêuticos (1.674).
         - **Indústria:** 42.159 vínculos (21%) em 1.198 estabelecimentos. É o setor mais concentrado em grandes empresas, com a maior parte dos vínculos na faixa de 1.000 ou mais empregados. A fabricação de aeronaves (11.069) responde sozinha por cerca de 26% dos vínculos industriais, seguida pela fabricação de automóveis, camionetas e utilitários (3.415), de materiais para medicina e odontologia (2.060) e de cosméticos e produtos de higiene pessoal (1.769).
 
+### Macroprocessos produtivos
+
+As 19 atividades (subclasse CNAE 2.0) com mais de 2.000 vínculos ativos cada foram associadas aos macroprocessos produtivos aos quais pertencem:
+
+| Macroprocesso produtivo | Atividades (CNAE 2.0) e vínculos ativos | Total de vínculos |
+|-------------------------|------------------------------------------|------------------:|
+| Serviços de apoio às empresas | Teleatendimento (4.395); serviços combinados para apoio a edifícios (4.099); serviços combinados de escritório e apoio administrativo (3.450); limpeza (3.415); vigilância e segurança privada (2.175); seleção e agenciamento de mão de obra (2.123) | 19.657 |
+| Aeroespacial e defesa | Fabricação de aeronaves (11.069) | 11.069 |
+| Saúde | Atendimento hospitalar (8.299); fabricação de materiais para medicina e odontologia (2.060) | 10.359 |
+| Varejo e abastecimento | Supermercados (5.338); vestuário e acessórios (2.091) | 7.429 |
+| Alimentação | Restaurantes (4.004); lanchonetes (2.857) | 6.861 |
+| Educação | Educação infantil – creche (2.334); ensino fundamental (2.012) | 4.346 |
+| Engenharia e serviços técnicos | Serviços de engenharia (3.628) | 3.628 |
+| Automotiva | Fabricação de automóveis, camionetas e utilitários (3.415) | 3.415 |
+| Construção civil | Construção de edifícios (2.947) | 2.947 |
+| Logística e transporte | Transporte rodoviário de carga (2.536) | 2.536 |
+| **Total** | **19 atividades** | **72.247** |
+
+> As 19 atividades somam cerca de 35% dos vínculos ativos do município. As demais atividades, todas com menos de 2.000 vínculos cada, ficam na categoria "Demais atividades".
+
+**Macroprocessos mais pertinentes ao município.** Em volume de vínculos, os serviços de apoio às empresas, o varejo e a alimentação têm grande peso, mas são atividades presentes em qualquer cidade de porte semelhante e atendem à demanda local. Os macroprocessos que distinguem São José dos Campos são:
+- **Aeroespacial e defesa:** a fabricação de aeronaves é a atividade que mais emprega em todo o município e responde sozinha por cerca de 26% dos vínculos industriais.
+- **Saúde:** reúne o atendimento hospitalar, segunda atividade que mais emprega, e uma indústria de materiais médicos e odontológicos, o que indica um polo de saúde que vai além dos serviços.
+- **Automotiva:** a fabricação de automóveis é a segunda atividade industrial em vínculos.
+- **Engenharia e serviços técnicos:** os serviços de engenharia estão entre as dez atividades que mais empregam e se relacionam com a base industrial e tecnológica do município.
+
 ---
 
 ## Próximos Passos
+
+> **Os itens abaixo são possibilidades viáveis de evolução do Observatório, e não metas definidas pela equipe.** A adoção de cada uma depende da avaliação do cliente e da disponibilidade dos dados.
+
 - **Melhorias planejadas após feedback:** Ajustes nos indicadores, nos visuais e na composição das cadeias produtivas conforme a avaliação do cliente na apresentação da Sprint 3.
 - **Ajustes de usabilidade:** Revisão final do layout, dos textos de apoio e da navegação para a Feira de Soluções.
 - **Expansão de funcionalidades para próximo incremento:** Comparação dos setores do município com o estado de São Paulo e com o Brasil (quociente locacional).
