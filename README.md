@@ -73,7 +73,7 @@ Essa base não faz parte da RAIS e foi usada só para a classificação por bair
 | Tipo de Usuário | Descrição / Interesse Principal | Necessidade Representativa |
 |-----------------|---------------------------------|----------------------------|
 | Gestor Público | Servidores da Secretaria de Desenvolvimento Econômico/CADI responsáveis por planejar políticas de fomento industrial e de inovação | Identificar setores estratégicos e monitorar o desenvolvimento econômico da cidade |
-| Empresa Parceira | Empresas já estabelecidas na região, integrantes do ecossistema de inovação de SJC | Mapear sinergias, fornecedores e possíveis parcerias no mesmo setor ou com soluções agregadoras de valor |
+| Empresa Parceira | Empresas já estabelecidas na região, com interesse no ecossistema de inovação de SJC | Mapear sinergias e identificar possíveis parceiros no mesmo setor ou que possam agregar valor |
 | Parceiro em Potencial | Empresas ou investidores externos avaliando a instalação de operações na região | Comparar indicadores entre setores para embasar decisões de investimento |
 | Cidadão (pesquisadores, estudantes e jornalistas) | Acesso ao painel para fins acadêmicos, jornalísticos ou de acesso à informação | Consultar dados abertos, confiáveis e com metodologia transparente |
 
