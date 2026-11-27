@@ -34,7 +34,7 @@
 - **[CONCLA/IBGE](https://concla.ibge.gov.br/)** (Comissão Nacional de Classificação): tabelas oficiais da CNAE e dos subsetores do IBGE, usadas para dar descrição aos códigos de atividade econômica da RAIS.
 - **[Base dos Dados](https://basedosdados.org/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00?table=86b69f96-0bfe-45da-833b-6edc9a0af213)**: dicionário da RAIS, usado para dar significado aos demais códigos da base, como as faixas de porte da empresa.
 
-> As fontes complementares (CONCLA/IBGE e Base dos Dados) foram adotadas na Sprint 1 para dar significado aos códigos da RAIS. Nesta sprint, elas foram usadas de forma mais apropriada para construir as tabelas dimensão usadas em modelo estrela, relacionadas a tabela fato, contendo os dados quantificáveis; possibilitando o funcionamento dos filtros e a sincronicidade dos dados do painel.
+> As fontes complementares (CONCLA/IBGE e Base dos Dados) foram adotadas na Sprint 1 para dar significado aos códigos da RAIS. Nesta sprint, elas foram usadas para construir as tabelas dimensão do modelo, que fazem os filtros do painel funcionar.
 
 ---
 
@@ -119,6 +119,7 @@ https://github.com/user-attachments/assets/8593fb50-1975-4d2e-b786-70efa1943553
 
 <img width="1917" height="1078" alt="Página Distribuição Geográfica" src="https://github.com/user-attachments/assets/90e64b2e-6310-48f5-9266-72be116d0c3a" />
 
+- Notebook de filtragem e refinamento dos dados (Google Colab): [Clique aqui](https://colab.research.google.com/drive/1du7vjnBfTXE3x-BC8cTGXzjk2bXjFn-6?usp=sharing)
 - Plataforma BI: [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
 - Relatório da Sprint 2: [Relatorio_Sprint2.docx](https://github.com/user-attachments/files/34300636/Relatorio_Sprint2.docx)
 
