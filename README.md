@@ -58,7 +58,7 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 ## Fonte dos Dados
 
 ### RAIS Estabelecimentos
-**RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
+**RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
 
 A RAIS pública não identifica as empresas (não traz CNPJ nem razão social). Por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
 
