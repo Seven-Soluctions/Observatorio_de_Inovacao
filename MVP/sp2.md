@@ -34,7 +34,7 @@
 - **[CONCLA/IBGE](https://concla.ibge.gov.br/)** (Comissão Nacional de Classificação): tabelas oficiais da CNAE e dos subsetores do IBGE, usadas para dar descrição aos códigos de atividade econômica da RAIS.
 - **[Base dos Dados](https://basedosdados.org/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00?table=86b69f96-0bfe-45da-833b-6edc9a0af213)**: dicionário da RAIS, usado para dar significado aos demais códigos da base, como as faixas de porte da empresa.
 
-> As fontes complementares (CONCLA/IBGE e Base dos Dados) foram adotadas na Sprint 1 para dar significado aos códigos da RAIS. Nesta sprint, elas foram usadas para construir as tabelas dimensão do modelo, que fazem os filtros do painel funcionar.
+> As fontes complementares (CONCLA/IBGE e Base dos Dados) foram adotadas na Sprint 1 para dar significado aos códigos da RAIS. Nesta sprint, elas foram usadas de forma mais apropriada para construir as tabelas dimensão usadas em modelo estrela, relacionadas a tabela fato, contendo os dados quantificáveis; possibilitando o funcionamento dos filtros e a sincronicidade dos dados do painel.
 
 ---
 
