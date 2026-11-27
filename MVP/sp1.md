@@ -85,7 +85,9 @@
 
 ## Métricas de Validação
 - **Número de usuários que testaram o MVP:** Os oito integrantes da equipe Seven Solutions. A validação com o cliente (CADI e Secretaria de Inovação e Desenvolvimento Econômico) ocorreu na apresentação da Sprint 1.
-- **Feedback qualitativo (positivo/negativo):** A verificação da base mostrou registros duplicados, colunas sem informação e códigos sem descrição, o que indicou a necessidade de refazer a filtragem e a modelagem dos dados.
+- **Feedback qualitativo (positivo/negativo):**
+    - A verificação da base mostra registros duplicados, colunas sem informação e códigos sem descrição, o que indica a necessidade de refazer a filtragem e a modelagem dos dados.
+    - É necessário repensar a escolha dos visuais, alguns mostram as mesmas informações, apenas de diferentes formas
 - **Resultados apresentados pelo painel** (ainda com registros duplicados):
     - Cerca de 207 mil vínculos ativos no município.
     - Comércio e administração de imóveis e valores mobiliários é o subsetor com mais estabelecimentos (15,2 mil, 34% do total), seguido pelo comércio varejista (10,3 mil, 23%) e pelos serviços de alojamento e alimentação (5 mil, 11%).
