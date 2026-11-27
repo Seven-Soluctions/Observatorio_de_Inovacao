@@ -63,17 +63,9 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 A RAIS pública não identifica as empresas (não traz CNPJ nem razão social). Por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
 
 ### Relação CEP × Bairro (Mendeley Data)
-Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no **Mendeley Data**:
-
-> ZIMMERMANN, Ivan. *Códigos de CEP do Brasil por UF, CIDADE, BAIRRO E LOGRADOURO (Brazil ZIP CODES)*. Mendeley Data, v1, 2019. DOI: [10.17632/g97jb8fp57.1](https://doi.org/10.17632/g97jb8fp57.1)
+Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no ([Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1):
 
 Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
-
-> [!NOTE]
-> Base disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Os CEPs estão atualizados até 2018, então CEPs criados depois disso podem não ter bairro associado.
-
-Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
-
 
 
 # Personas
