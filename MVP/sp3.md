@@ -16,13 +16,13 @@
     - Ranking das atividades (subclasse CNAE 2.0) que mais geram empregos formais, com a participação acumulada de cada uma no total de vínculos.
     - Hierarquia da CNAE 2.0 (seção, divisão, grupo, classe e subclasse) na tabela dimensão de atividade, com navegação por níveis (*drill down*) nos visuais.
     - Nova página **Cadeias Produtivas**, que agrupa as atividades nos macroprocessos produtivos relevantes para o município `[PREENCHER: confirmar a lista usada no painel, por exemplo aeroespacial e defesa, automotiva, química e petroquímica, saúde, tecnologia da informação e logística]`, com vínculos, estabelecimentos e atividades de cada cadeia.
-    - Relação dos CEPs da RAIS com os **bairros de São José dos Campos**, a partir da base do Mendeley Data, para agrupar os estabelecimentos e os vínculos por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
-    - Filtro por cadeia produtiva, somado aos filtros de porte da empresa, subsetor IBGE e subclasse CNAE 2.0 da Sprint 2.
-    - Ajustes de usabilidade apontados na Sprint 2: ordenação da tabela de atividades e das faixas de porte da empresa `[PREENCHER: e agrupamento dos CEPs por região da cidade no mapa, se foi feito]`.
+    - Relação dos CEPs da RAIS com as **zonas e os bairros de São José dos Campos**, a partir da base do Mendeley Data, para agrupar os estabelecimentos e os vínculos por zona e bairro.
+    - Filtros por cadeia produtiva e por zona e bairro, somados aos filtros de porte da empresa, subsetor IBGE e subclasse CNAE 2.0 da Sprint 2.
+    - Ajustes de usabilidade apontados na Sprint 2, todos implementados: ordenação da tabela de atividades e das faixas de porte da empresa e agrupamento dos CEPs por zona e bairro da cidade.
 - **Limitações conhecidas:**
     - A RAIS pública não identifica as empresas (não traz CNPJ nem razão social), por isso as cadeias produtivas são montadas a partir das atividades (CNAE) e não das empresas.
     - Uma mesma atividade pode servir a mais de uma cadeia. No painel, cada atividade foi associada a uma única cadeia, a de maior aderência.
-    - A base do Mendeley Data tem CEPs atualizados até 2018, então CEPs criados depois disso podem ficar sem bairro associado.
+    - A base do Mendeley Data tem CEPs atualizados até 2018, então CEPs criados depois disso podem ficar sem bairro associado. Esses CEPs não aparecem no filtro de bairro, mas seus vínculos continuam contabilizados nos demais visuais e nos totais do painel.
     - A base mede o estoque de emprego em 31/12. Ela não informa admissões, desligamentos, remuneração nem investimento em P&D.
     - A comparação é feita apenas dentro do município. Ainda não há comparação com o estado ou com o país.
 - **Escopo reduzido (somente o essencial para validar a ideia):**
@@ -34,12 +34,12 @@
 - **RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
 - **[CONCLA/IBGE](https://concla.ibge.gov.br/)** (Comissão Nacional de Classificação): tabelas oficiais da CNAE e dos subsetores do IBGE, usadas para dar descrição aos códigos de atividade econômica da RAIS.
 - **[Base dos Dados](https://basedosdados.org/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00?table=86b69f96-0bfe-45da-833b-6edc9a0af213)**: dicionário da RAIS, usado para dar significado aos demais códigos da base, como as faixas de porte da empresa.
-- **[Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1)**: base de CEPs por bairro, usada nesta sprint para relacionar os CEPs da RAIS aos bairros de São José dos Campos.
+- **[Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1)**: base de CEPs por bairro, usada nesta sprint para associar os CEPs da RAIS às zonas e aos bairros de São José dos Campos.
 
     > ZIMMERMANN, Ivan. *Códigos de CEP do Brasil por UF, CIDADE, BAIRRO E LOGRADOURO (Brazil ZIP CODES)*. Mendeley Data, v1, 2019. DOI: [10.17632/g97jb8fp57.1](https://doi.org/10.17632/g97jb8fp57.1)
 
 > [!NOTE]
-> A base do Mendeley Data é disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) e não faz parte da RAIS. Ela foi usada só para a classificação por bairro.
+> A base do Mendeley Data é disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) e não faz parte da RAIS. Ela foi usada só para a classificação por zona e bairro.
 
 ---
 
@@ -82,8 +82,8 @@
 - O painel deve apresentar o ranking das atividades que mais geram empregos formais.
 - A tabela dimensão de atividade deve conter os cinco níveis da CNAE 2.0, e os visuais devem permitir navegar entre eles.
 - Toda atividade da base deve estar associada a uma cadeia produtiva ou à categoria "Demais atividades", sem registros sem correspondência.
-- Todo CEP da base deve estar associado a um bairro ou à categoria "Bairro não identificado".
-- Deve ser possível filtrar a visualização por cadeia produtiva, porte da empresa, subsetor IBGE e subclasse CNAE 2.0.
+- Os CEPs da base devem estar associados às zonas e aos bairros da cidade. Os vínculos de CEPs sem bairro associado devem continuar contabilizados nos totais e nos demais visuais.
+- Deve ser possível filtrar a visualização por cadeia produtiva, zona e bairro, porte da empresa, subsetor IBGE e subclasse CNAE 2.0.
 - A soma dos vínculos das cadeias produtivas deve ser igual ao total de vínculos ativos do município.
 - A fonte dos dados deve estar indicada em todas as páginas, e o painel deve continuar acessível publicamente, sem necessidade de login.
 - **Métricas coletadas:** vínculos ativos e estabelecimentos por setor e por cadeia produtiva, participação de cada setor no emprego formal, média de vínculos por estabelecimento e participação acumulada das atividades que mais empregam.
@@ -91,22 +91,29 @@
 ---
 
 ## Métricas de Validação
-- **Número de usuários que testaram o MVP:** Os oito integrantes da equipe Seven Solutions `[PREENCHER: e outros usuários, se houve teste com colegas ou com o cliente]`.
-- **Feedback qualitativo (positivo/negativo):** `[PREENCHER: retorno do CADI e da Secretaria na apresentação da Sprint 2 e o que foi ajustado a partir dele]`.
+- **Número de usuários que testaram o MVP:** Os oito integrantes da equipe Seven Solutions e usuários externos à equipe.
+- **Feedback qualitativo (positivo/negativo):** Os apontamentos do cliente (CADI e Secretaria de Inovação e Desenvolvimento Econômico) na apresentação da Sprint 2 foram implementados nesta sprint, entre eles os indicadores-resumo na página inicial, a ordenação da tabela de atividades e das faixas de porte da empresa e o agrupamento dos CEPs por zona e bairro. O retorno dos usuários externos sobre a versão da Sprint 3 ainda não foi recebido.
 - **Consistência dos dados:** Os totais do painel conferem com a base de origem: 204.684 vínculos ativos, 204.593 CLT e 91 estatutários. A soma dos vínculos das cadeias produtivas confere com o total do município.
 - **Resultados apresentados pelo painel:**
     - Serviços concentram 51% dos vínculos ativos, seguidos pelo comércio (22%), pela indústria (21%) e pela construção civil (5%).
     - A fabricação de aeronaves é a atividade de maior peso, com 11.069 vínculos.
-    - `[PREENCHER: média de vínculos por estabelecimento do setor com maior média, por exemplo a indústria]`.
-    - `[PREENCHER: quantas atividades somam metade dos vínculos do município, a partir do ranking]`.
-    - `[PREENCHER: vínculos e participação da principal cadeia produtiva, por exemplo aeroespacial e defesa]`.
+    - A indústria tem a maior média de vínculos por estabelecimento: cerca de 35 vínculos (42.159 vínculos em 1.198 estabelecimentos), contra cerca de 15 nos serviços e 9 no comércio.
+    - As dez atividades que mais empregam somam 51.112 vínculos, cerca de 25% do total do município. Depois da fabricação de aeronaves, aparecem atendimento hospitalar (8.299), supermercados (5.338), teleatendimento (4.395), serviços combinados de apoio a edifícios (4.099) e restaurantes (4.004). A fabricação de automóveis, camionetas e utilitários fica em 10º lugar, com 3.415 vínculos.
+    - **Impacto dos principais setores, conforme os vínculos ativos:**
+        - **Serviços:** 104.843 vínculos (51%) em 6.843 estabelecimentos, com 90 dos 91 vínculos estatutários do município. As atividades que mais empregam são atendimento hospitalar (8.299), teleatendimento (4.395), serviços combinados de apoio a edifícios (4.099), restaurantes (4.004) e serviços de engenharia (3.628).
+        - **Comércio:** 45.491 vínculos (22%) em 5.240 estabelecimentos, todos CLT. O emprego se concentra em empresas de menor porte e no varejo: supermercados (5.338), vestuário e acessórios (2.091), hipermercados (1.783) e produtos farmacêuticos (1.674).
+        - **Indústria:** 42.159 vínculos (21%) em 1.198 estabelecimentos. É o setor mais concentrado em grandes empresas, com a maior parte dos vínculos na faixa de 1.000 ou mais empregados. A fabricação de aeronaves (11.069) responde sozinha por cerca de 26% dos vínculos industriais, seguida pela fabricação de automóveis, camionetas e utilitários (3.415), de materiais para medicina e odontologia (2.060) e de cosméticos e produtos de higiene pessoal (1.769).
 
 ---
 
 ## Próximos Passos
 - **Melhorias planejadas após feedback:** Ajustes nos indicadores, nos visuais e na composição das cadeias produtivas conforme a avaliação do cliente na apresentação da Sprint 3.
 - **Ajustes de usabilidade:** Revisão final do layout, dos textos de apoio e da navegação para a Feira de Soluções.
-- **Expansão de funcionalidades para próximo incremento:** Comparação dos setores do município com o estado de São Paulo e com o Brasil (quociente locacional), uso do Novo CAGED (admissões e desligamentos) e dos dados abertos de CNPJ (identificação das empresas e selo de cooperação em inovação).
+- **Expansão de funcionalidades para próximo incremento:** Comparação dos setores do município com o estado de São Paulo e com o Brasil (quociente locacional).
+- **Integração de novas bases de dados ao Observatório:** O modelo em estrela construído nas sprints anteriores permite acrescentar novas bases ao painel sem refazer a estrutura existente. Entre as possibilidades:
+    - **Perfil demográfico:** dados do Censo e das estimativas populacionais do IBGE por bairro e região, para relacionar o emprego formal à população de cada área da cidade.
+    - **Séries temporais:** RAIS de outros anos-base, para comparar a evolução dos setores, das atividades e do porte das empresas ao longo do tempo, além do Novo CAGED (admissões e desligamentos mensais).
+    - **Relação de empresas:** dados abertos do CNPJ (Receita Federal), para identificar as empresas por atividade e localização, o que a RAIS pública não permite, e apoiar o mapeamento de parceiros e o selo de cooperação em inovação.
 
 ---
 
@@ -128,7 +135,7 @@ https://github.com/user-attachments/assets/04d8bdab-3866-4c99-9a2c-cf74f49cc3b2
 
 <img width="1365" height="767" alt="Página Distribuição Geográfica" src="https://github.com/user-attachments/assets/5afe7264-669f-4e30-be40-542598704c5d" />
 
- Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
+- Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
 - Relatório da Sprint 3: *a ser inserido*
 
 ---
