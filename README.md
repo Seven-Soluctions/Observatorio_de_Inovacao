@@ -1,6 +1,6 @@
 # Aprendizado por Projeto Integrado - Seven Solutions 1° Semestre (API)
 
-Desenvolver o Observatório de Inovação de São José dos Campos, uma solução de análise e visualização de dados em Power BI que mapeia o ecossistema industrial e de serviços do município a partir da RAIS, em parceria com o CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos.
+Desenvolver o Observatório de Inovação de São José dos Campos, uma solução de análise e visualização de dados em Power BI que mapeia o ecossistema industrial e de serviços do município a partir de dados da Relação Anual de Informações Sociais (RAIS), em parceria com o CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos.
 
 # Índice
 * [Projeto (API)](#projeto-api)
@@ -16,7 +16,7 @@ Desenvolver o Observatório de Inovação de São José dos Campos, uma soluçã
 
 
 # Projeto (API)
-Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil.
+Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e metodologia ágil.
 Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO).
 Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints.
 
@@ -52,10 +52,28 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 | Python 3+ | Extração, filtragem (município de SJC) e tratamento dos dados da RAIS | RN.P.2 |
 | Power BI | Visualização dos dados no Observatório | RN.P.3 |
 | GitHub | Versionamento do código e documentação técnica | RN.P.4 |
+| Anthropic Claude | Criação da identidade visual e background | RN.P.4 |
 
 
-# Fonte dos Dados
-**RAIS Estabelecimentos** (Ministério do Trabalho e Emprego), **ano-base 2025**, filtrada para o município de São José dos Campos (código IBGE 354990). A RAIS pública não identifica as empresas (não traz CNPJ nem razão social); por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
+## Fonte dos Dados
+
+### RAIS Estabelecimentos
+**RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
+
+A RAIS pública não identifica as empresas (não traz CNPJ nem razão social). Por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
+
+### Relação CEP × Bairro (Mendeley Data)
+Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no **Mendeley Data**:
+
+> ZIMMERMANN, Ivan. *Códigos de CEP do Brasil por UF, CIDADE, BAIRRO E LOGRADOURO (Brazil ZIP CODES)*. Mendeley Data, v1, 2019. DOI: [10.17632/g97jb8fp57.1](https://doi.org/10.17632/g97jb8fp57.1)
+
+Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
+
+> [!NOTE]
+> Base disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Os CEPs estão atualizados até 2018, então CEPs criados depois disso podem não ter bairro associado.
+
+Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
+
 
 
 # Personas
