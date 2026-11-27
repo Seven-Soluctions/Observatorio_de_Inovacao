@@ -82,19 +82,21 @@ Essa base não faz parte da RAIS e foi usada só para a classificação por bair
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
 |------|------------|------------|------------|--------|-----------------------|
-| 1  | Alta  | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre a economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
-| 2  | Alta  | Como usuário do Observatório, quero navegar por uma página inicial de apresentação, com indicação dos pontos tratados na análise de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 1  | Alta  | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre os dados referentes a economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
+| 2  | Alta  | Como usuário do Observatório, quero navegar por uma página inicial com indicação dos pontos tratados na análise de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | 5  | 1 | RN.P.3, RN.P.5 |
 | 3  | Alta  | Como equipe de desenvolvimento, quero automatizar a extração dos dados da base RAIS nacional e filtrar apenas os registros do município de São José dos Campos, para garantir uma base de dados confiável e atualizável | 13 | 1 | RN.P.1, RN.P.2 |
 | 4  | Alta  | Como equipe de desenvolvimento, quero versionar os scripts de tratamento de dados e a documentação do projeto no GitHub, para garantir rastreabilidade, colaboração e transparência do processo | 2  | 1 | RN.P.4, RN.P.6 |
 | 5  | Alta  | Como gestor público, quero visualizar um mapa dos setores industriais e de serviços predominantes na região, para identificar oportunidades de fomento e atração de investimentos | 8  | 1 | RN.P.3, RN.P.5 |
-| 6  | Alta  | Como membro do ecossistema de inovação, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 6  | Alta  | Como usuário do observatório de inovação, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
 | 7  | Alta  | Como gestor público, quero visualizar indicadores de vínculo por setor, para compreender a dinâmica do mercado de trabalho local e orientar políticas públicas | 5  | 2 | RN.P.3 |
 | 8  | Alta  | Como gestor público, quero visualizar, no mesmo painel, indicadores relacionados aos setores econômicos e de serviços, para embasar políticas de fomento ao diálogo entre esses atores | 8  | 2 | RN.P.3, RN.P.5 |
-| 9 | Alta  | Como empresa parceira, quero identificar outros ramos do mesmo setor produtivo presentes na região, para mapear possíveis sinergias, fornecedores ou parcerias estratégicas | 8  | 2 | RN.P.3 |
+| 9 | Alta  | Como empresa parceira, quero identificar outros ramos do mesmo setor produtivo presentes na região, para mapear possíveis sinergias ou parcerias estratégicas | 8  | 2 | RN.P.3 |
 | 10 | Alta  | Como empresa parceira, quero visualizar a distribuição geográfica das empresas por setor no município, para identificar clusters produtivos próximos ao meu negócio | 8  | 2 | RN.P.3, RN.P.5 |
 | 11 | Média | Como parceiro em potencial, quero comparar indicadores econômicos entre diferentes setores da região, para apoiar minha decisão sobre onde investir ou instalar uma nova operação | 5  | 3 | RN.P.3 |
-| 12 | Média | Como pesquisador, quero visualizar a classificação das atividades econômicas segundo a CNAE, para relacionar os dados da RAIS a categorias produtivas reconhecidas academicamente | 5  | 3 | RN.P.2, RN.P.3 |
+| 12 | Média | Como pesquisador, quero visualizar a classificação das atividades econômicas segundo a Classifi cação Nacional de
+Atividades Econômicas (CNAE), para relacionar os dados da RAIS a categorias produtivas | 5  | 3 | RN.P.2, RN.P.3 |
 | 13 | Média | Como empresa parceira, quero visualizar quais setores concentram a maior geração de empregos formais, para identificar players relevantes para possíveis parcerias | 3  | 3 | RN.P.3 |
+| 14 | Média | Como gestor público, quero dispor de diversos filtros para aprofundar minha análise referente a estrutura produtiva do município | 3  | 3 | RN.P.3 |
 
 > Estimativas em *story points* (escala de Fibonacci). O backlog é passível de revisão e refinamento ao longo das Sprints, em conjunto com o cliente.
 
@@ -103,12 +105,12 @@ Essa base não faz parte da RAIS e foi usada só para a classificação por bair
 
 **"Como empresa parceira ou em potencial, quero visualizar os principais motores econômicos da região, conseguir estimar os melhores espaços de inserção de oportunidade e parcerias comerciais e de desenvolvimento no município de São José dos Campos."**
 * O painel deve apresentar a distribuição geográfica das empresas;
-* As empresas abertas a parcerias devem ser distinguidas através de selo de cooperação em inovação;
-* O resultado do processamento de empresas do ecossistema de inovação deve ser exposto em painel único, possibilitando filtragem por cadeia produtiva ou setor econômico;
-* Os dados macroeconômicos da região devem ser expostos em primeiro plano.
+* Os dados macroeconômicos da região devem ser expostos em primeiro plano;
+* Os resultado do processamento de busca devem ser concentrados em painel único, possibilitando filtragem por cadeia produtiva ou setor econômico;
+* A disposição geográfica das atividades econômicas devem permitir a busca por zonas e bairros da cidade.
 
-**"Como gestor público, quero visualizar, no mesmo painel, as principais empresas e seus respectivos setores produtivos, para embasar políticas de fomento ao diálogo entre esses atores e o desenvolvimento econômico da região."**
-* O painel deve apresentar uma seção específica que relacione indicadores das empresas com planta no município e sua relevância econômica na cidade;
+**"Como gestor público, quero visualizar, no mesmo painel, as principais atividades econômicas e seus respectivos setores produtivos, para embasar políticas de fomento ao diálogo entre esses atores e o desenvolvimento econômico da região."**
+* O painel deve apresentar uma seção específica que relacione indicadores das atividades produtivas com planta no município e sua relevância econômica na cidade;
 * Deve ser possível filtrar a visualização por setor produtivo;
 * A navegação deve ser fluida e intuitiva;
 * Deve haver indicação clara da fonte de cada indicador exibido.
@@ -129,7 +131,7 @@ Essa base não faz parte da RAIS e foi usada só para a classificação por bair
 
 | Sprint            |  Entrega   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | 28/09/2026 | entregue | [MVP](MVP/sp1.md)  |
+| 01                | 28/09/2026 | entregue | [MVP](https://github.com/Seven-Soluctions/Observatorio_de_Inovacao/blob/main/MVP/sp1.md)  |
 | 02                | 02/11/2026 | entregue | [MVP](https://github.com/Seven-Soluctions/Observatorio_de_Inovacao/blob/main/MVP/sp2.md)  |
 | 03                | 27/11/2026 | entregue | [MVP](https://github.com/Seven-Soluctions/Observatorio_de_Inovacao/blob/main/MVP/sp3.md)  |
 | Feira de Soluções | dd/mm/aaaa | a fazer  | [MVP](#)  |
