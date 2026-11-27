@@ -39,22 +39,28 @@
 ---
 
 ## Personas / Usuários-Alvo
-- **Gestor Público:** Servidor da Secretaria de Desenvolvimento Econômico/CADI que planeja políticas de fomento industrial e de inovação. Dor atendida: falta de uma visão organizada dos setores predominantes no município.
-- **Empresa Parceira:** Empresa já estabelecida no ecossistema de inovação de SJC. Dor atendida: dificuldade de localizar os estabelecimentos do seu setor no município.
-- **Parceiro em Potencial:** Empresa ou investidor externo que avalia se instalar na região. Dor atendida: falta de informação reunida sobre o peso de cada setor na economia local.
-- **Cidadão (pesquisadores, estudantes e jornalistas):** Usuário que busca informação pública sobre a economia do município. Dor atendida: dados da RAIS dispersos e em formato técnico, de difícil leitura.
+
+| Tipo de Usuário | Descrição / Interesse Principal | Necessidade Representativa |
+|-----------------|---------------------------------|----------------------------|
+| Gestor Público | Servidores da Secretaria de Desenvolvimento Econômico/CADI responsáveis por planejar políticas de fomento industrial e de inovação | Identificar setores estratégicos e monitorar o desenvolvimento econômico da cidade |
+| Empresa Parceira | Empresas já estabelecidas na região, com interesse no ecossistema de inovação de SJC | Mapear sinergias e identificar possíveis parceiros no mesmo setor ou que possam agregar valor |
+| Parceiro em Potencial | Empresas ou investidores externos avaliando a instalação de operações na região | Comparar indicadores entre setores para embasar decisões de investimento |
+| Cidadão (pesquisadores, estudantes e jornalistas) | Acesso ao painel para fins acadêmicos, jornalísticos ou de acesso à informação | Consultar dados abertos, confiáveis e com metodologia transparente |
 
 ---
 
-## User Stories (Backlog do MVP)
-| ID  | User Story | Prioridade | Estimativa |
-|-----|------------|------------|------------|
-| US1 | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre os dados referentes à economia do município (Lei de Acesso à Informação) | Alta | 3 pontos |
-| US2 | Como usuário do Observatório, quero navegar por uma página inicial com indicação dos pontos tratados na análise de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | Alta | 5 pontos |
-| US3 | Como equipe de desenvolvimento, quero automatizar a extração dos dados da base RAIS nacional e filtrar apenas os registros do município de São José dos Campos, para garantir uma base de dados confiável e atualizável | Alta | 13 pontos |
-| US4 | Como equipe de desenvolvimento, quero versionar os scripts de tratamento de dados e a documentação do projeto no GitHub, para garantir rastreabilidade, colaboração e transparência do processo | Alta | 2 pontos |
-| US5 | Como gestor público, quero visualizar um mapa dos setores industriais e de serviços predominantes na região, para identificar oportunidades de fomento e atração de investimentos | Alta | 8 pontos |
-| US6 | Como usuário do Observatório, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | Alta | 5 pontos |
+## Product Backlog (Sprint 1)
+
+| Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
+|------|------------|------------|------------|--------|-----------------------|
+| 1  | Alta  | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre os dados referentes à economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
+| 2  | Alta  | Como usuário do Observatório, quero navegar por uma página inicial com indicação dos pontos tratados na análise de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 3  | Alta  | Como equipe de desenvolvimento, quero automatizar a extração dos dados da base RAIS nacional e filtrar apenas os registros do município de São José dos Campos, para garantir uma base de dados confiável e atualizável | 13 | 1 | RN.P.1, RN.P.2 |
+| 4  | Alta  | Como equipe de desenvolvimento, quero versionar os scripts de tratamento de dados e a documentação do projeto no GitHub, para garantir rastreabilidade, colaboração e transparência do processo | 2  | 1 | RN.P.4, RN.P.6 |
+| 5  | Alta  | Como gestor público, quero visualizar um mapa dos setores industriais e de serviços predominantes na região, para identificar oportunidades de fomento e atração de investimentos | 8  | 1 | RN.P.3, RN.P.5 |
+| 6  | Alta  | Como usuário do Observatório, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
+
+> Estimativas em *story points* (escala de Fibonacci).
 
 ---
 
