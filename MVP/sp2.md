@@ -120,7 +120,7 @@ https://github.com/user-attachments/assets/8593fb50-1975-4d2e-b786-70efa1943553
 <img width="1917" height="1078" alt="Página Distribuição Geográfica" src="https://github.com/user-attachments/assets/90e64b2e-6310-48f5-9266-72be116d0c3a" />
 
 - Notebook de filtragem e refinamento dos dados (Google Colab): [Clique aqui](https://colab.research.google.com/drive/1du7vjnBfTXE3x-BC8cTGXzjk2bXjFn-6?usp=sharing)
-- Plataforma BI: [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
+- Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
 - Relatório da Sprint 2: [Relatorio_Sprint2.docx](https://github.com/user-attachments/files/34300636/Relatorio_Sprint2.docx)
 
 ---
