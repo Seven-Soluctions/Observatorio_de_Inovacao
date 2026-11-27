@@ -16,9 +16,9 @@ Desenvolver o Observatório de Inovação de São José dos Campos, uma soluçã
 
 
 # Projeto (API)
-Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e metodologia ágil.
-Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO).
-Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprints.
+Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentado nos pilares de aprendizado com problemas reais (RPBL), validação externa e metodologia ágil.
+Uso de estratégias para entender o problema, conceber uma solução viável, desenvolver e implementar o MVP, seguido de sua operação (CDIO).
+Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC, com definição das datas do kickoff e das sprints.
 
 **Tema do semestre:** Mapeamento do Ecossistema Industrial e de Serviços da Região de São José dos Campos.
 
@@ -27,12 +27,12 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 | :-----------: | :------------------------------------- | :---------------: |
 | Product Owner | João Carlos Florencio de Sousa         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
 | Scrum Master  | Maria Gessika da Silva                 | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-|  Team Member  | Carlos Eduardo Costa                   | [![Linkedin Badge](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/)](https://www.linkedin.com/in/) [![GitHub Badge](https://github.com/caecosta2109-cmyk) |
-|  Team Member  | Enzo Ferreira Martins de Paiva         | [![Linkedin Badge](https://www.linkedin.com/in/enzo-ferreira-ba6619419/)](https://www.linkedin.com/in/) [![GitHub Badge](https://github.com/ZenzoFerreira) |
-|  Team Member  | Giovanna Ferreira                      | [![Linkedin Badge](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) [![GitHub Badge](https://github.com/giovannaferreira304-stack/Giovanna-Ferreira22) |
-|  Team Member  | Juan Pereira Justino                   | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://github.com/juanpereirajustino-tech) |
+|  Team Member  | Carlos Eduardo Costa                   | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/caecosta2109-cmyk) |
+|  Team Member  | Enzo Ferreira Martins de Paiva         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-ferreira-ba6619419/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ZenzoFerreira) |
+|  Team Member  | Giovanna Ferreira                      | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/giovannaferreira304-stack) |
+|  Team Member  | Juan Pereira Justino                   | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/juanpereirajustino-tech) |
 |  Team Member  | Marcio Tavares da Rocha                | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-|  Team Member  | Thais Helena Gomes Ambrósio            | [![Linkedin Badge](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/)](https://www.linkedin.com/in/) [![GitHub Badge](https://github.com/thaishelenaambrosio1985-dev) |
+|  Team Member  | Thais Helena Gomes Ambrósio            | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/thaishelenaambrosio1985-dev) |
 
 
 # Objetivo do Projeto
@@ -44,7 +44,7 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 * Fomentar o diálogo entre governo, empresas e academia, segundo o modelo da **hélice tríplice**.
 
 
-## Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 | Tecnologia | Uso no projeto | Requisito |
 |------------|----------------|-----------|
@@ -52,20 +52,25 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 | Python 3+ | Extração, filtragem (município de SJC) e tratamento dos dados da RAIS | RN.P.2 |
 | Power BI | Visualização dos dados no Observatório | RN.P.3 |
 | GitHub | Versionamento do código e documentação técnica | RN.P.4 |
-| Anthropic Claude | Criação da identidade visual e background | RN.P.4 |
+| Anthropic Claude | Criação da identidade visual e do background do painel | RN.P.4 |
 
 
-## Fonte dos Dados
+# Fonte dos Dados
 
-### RAIS Estabelecimentos
+## RAIS Estabelecimentos
 **RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
 
 A RAIS pública não identifica as empresas (não traz CNPJ nem razão social). Por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
 
-### Relação CEP × Bairro (Mendeley Data)
-Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no ([Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1):
+## Relação CEP × Bairro (Mendeley Data)
+Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no **[Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1)**:
+
+> ZIMMERMANN, Ivan. *Códigos de CEP do Brasil por UF, CIDADE, BAIRRO E LOGRADOURO (Brazil ZIP CODES)*. Mendeley Data, v1, 2019. DOI: [10.17632/g97jb8fp57.1](https://doi.org/10.17632/g97jb8fp57.1)
 
 Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
+
+> [!NOTE]
+> Base disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Os CEPs estão atualizados até 2018, então CEPs criados depois disso podem não ter bairro associado.
 
 
 # Personas
@@ -82,32 +87,31 @@ Essa base não faz parte da RAIS e foi usada só para a classificação por bair
 
 | Rank | Prioridade | User Story | Estimativa | Sprint | Requisito do Parceiro |
 |------|------------|------------|------------|--------|-----------------------|
-| 1  | Alta  | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre os dados referentes a economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
+| 1  | Alta  | Como cidadão, quero acessar o Observatório publicamente e sem necessidade de login, para exercer meu direito de acesso à informação sobre os dados referentes à economia do município (Lei de Acesso à Informação) | 3  | 1 | RN.P.3, RN.P.5 |
 | 2  | Alta  | Como usuário do Observatório, quero navegar por uma página inicial com indicação dos pontos tratados na análise de São José dos Campos, para ter uma visão geral rápida antes de aprofundar a análise | 5  | 1 | RN.P.3, RN.P.5 |
 | 3  | Alta  | Como equipe de desenvolvimento, quero automatizar a extração dos dados da base RAIS nacional e filtrar apenas os registros do município de São José dos Campos, para garantir uma base de dados confiável e atualizável | 13 | 1 | RN.P.1, RN.P.2 |
 | 4  | Alta  | Como equipe de desenvolvimento, quero versionar os scripts de tratamento de dados e a documentação do projeto no GitHub, para garantir rastreabilidade, colaboração e transparência do processo | 2  | 1 | RN.P.4, RN.P.6 |
 | 5  | Alta  | Como gestor público, quero visualizar um mapa dos setores industriais e de serviços predominantes na região, para identificar oportunidades de fomento e atração de investimentos | 8  | 1 | RN.P.3, RN.P.5 |
-| 6  | Alta  | Como usuário do observatório de inovação, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
-| 7  | Alta  | Como gestor público, quero visualizar indicadores de vínculo por setor, para compreender a dinâmica do mercado de trabalho local e orientar políticas públicas | 5  | 2 | RN.P.3 |
+| 6  | Alta  | Como usuário do Observatório, quero utilizar filtros por setor econômico e porte da empresa, para localizar rapidamente a informação relevante para minha análise | 5  | 1 | RN.P.3, RN.P.5 |
+| 7  | Alta  | Como gestor público, quero visualizar indicadores de vínculos por setor, para compreender a dinâmica do mercado de trabalho local e orientar políticas públicas | 5  | 2 | RN.P.3 |
 | 8  | Alta  | Como gestor público, quero visualizar, no mesmo painel, indicadores relacionados aos setores econômicos e de serviços, para embasar políticas de fomento ao diálogo entre esses atores | 8  | 2 | RN.P.3, RN.P.5 |
-| 9 | Alta  | Como empresa parceira, quero identificar outros ramos do mesmo setor produtivo presentes na região, para mapear possíveis sinergias ou parcerias estratégicas | 8  | 2 | RN.P.3 |
+| 9  | Alta  | Como empresa parceira, quero identificar outros ramos do mesmo setor produtivo presentes na região, para mapear possíveis sinergias ou parcerias estratégicas | 8  | 2 | RN.P.3 |
 | 10 | Alta  | Como empresa parceira, quero visualizar a distribuição geográfica das empresas por setor no município, para identificar clusters produtivos próximos ao meu negócio | 8  | 2 | RN.P.3, RN.P.5 |
 | 11 | Média | Como parceiro em potencial, quero comparar indicadores econômicos entre diferentes setores da região, para apoiar minha decisão sobre onde investir ou instalar uma nova operação | 5  | 3 | RN.P.3 |
-| 12 | Média | Como pesquisador, quero visualizar a classificação das atividades econômicas segundo a Classifi cação Nacional de
-Atividades Econômicas (CNAE), para relacionar os dados da RAIS a categorias produtivas | 5  | 3 | RN.P.2, RN.P.3 |
+| 12 | Média | Como pesquisador, quero visualizar a classificação das atividades econômicas segundo a Classificação Nacional de Atividades Econômicas (CNAE), para relacionar os dados da RAIS a categorias produtivas | 5  | 3 | RN.P.2, RN.P.3 |
 | 13 | Média | Como empresa parceira, quero visualizar quais setores concentram a maior geração de empregos formais, para identificar players relevantes para possíveis parcerias | 3  | 3 | RN.P.3 |
-| 14 | Média | Como gestor público, quero dispor de diversos filtros para aprofundar minha análise referente a estrutura produtiva do município | 3  | 3 | RN.P.3 |
+| 14 | Média | Como gestor público, quero dispor de diversos filtros para aprofundar minha análise referente à estrutura produtiva do município | 3  | 3 | RN.P.3 |
 
 > Estimativas em *story points* (escala de Fibonacci). O backlog é passível de revisão e refinamento ao longo das Sprints, em conjunto com o cliente.
 
 
 # Critérios de Aceitação
 
-**"Como empresa parceira ou em potencial, quero visualizar os principais motores econômicos da região, conseguir estimar os melhores espaços de inserção de oportunidade e parcerias comerciais e de desenvolvimento no município de São José dos Campos."**
+**"Como empresa parceira ou em potencial, quero visualizar os principais motores econômicos da região, para estimar os melhores espaços de inserção, oportunidades e parcerias comerciais e de desenvolvimento no município de São José dos Campos."**
 * O painel deve apresentar a distribuição geográfica das empresas;
 * Os dados macroeconômicos da região devem ser expostos em primeiro plano;
-* Os resultado do processamento de busca devem ser concentrados em painel único, possibilitando filtragem por cadeia produtiva ou setor econômico;
-* A disposição geográfica das atividades econômicas devem permitir a busca por zonas e bairros da cidade.
+* Os resultados do processamento de busca devem ser concentrados em painel único, possibilitando filtragem por cadeia produtiva ou setor econômico;
+* A disposição geográfica das atividades econômicas deve permitir a busca por zonas e bairros da cidade.
 
 **"Como gestor público, quero visualizar, no mesmo painel, as principais atividades econômicas e seus respectivos setores produtivos, para embasar políticas de fomento ao diálogo entre esses atores e o desenvolvimento econômico da região."**
 * O painel deve apresentar uma seção específica que relacione indicadores das atividades produtivas com planta no município e sua relevância econômica na cidade;
