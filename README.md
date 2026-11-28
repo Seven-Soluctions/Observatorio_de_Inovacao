@@ -2,12 +2,14 @@
 
 Desenvolver o Observatório de Inovação de São José dos Campos, uma solução de análise e visualização de dados em Power BI que mapeia o ecossistema industrial e de serviços do município a partir de dados da Relação Anual de Informações Sociais (RAIS), em parceria com o CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos.
 
+**[Acesse o Observatório publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)** (acesso público, sem necessidade de login)
+
 # Índice
 * [Projeto (API)](#projeto-api)
 * [Equipe](#equipe)
 * [Objetivo do Projeto](#objetivo-do-projeto)
 * [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Fonte dos Dados](#fonte-dos-dados)
+* [Fontes dos Dados](#fontes-dos-dados)
 * [Personas](#personas)
 * [Product Backlog](#product-backlog)
 * [Critérios de Aceitação](#critérios-de-aceitação)
@@ -25,14 +27,14 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 # Equipe
 |    Função     | Nome                                   | LinkedIn & GitHub |
 | :-----------: | :------------------------------------- | :---------------: |
-| Product Owner | João Carlos Florencio de Sousa         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
+| Product Owner | João Carlos Florencio de Sousa         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/fsjuao) |
 | Scrum Master  | Maria Gessika da Silva                 | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-|  Team Member  | Carlos Eduardo Costa                   | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/caecosta2109-cmyk) |
-|  Team Member  | Enzo Ferreira Martins de Paiva         | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-ferreira-ba6619419/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ZenzoFerreira) |
-|  Team Member  | Giovanna Ferreira                      | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/giovannaferreira304-stack) |
+|  Team Member  | [Carlos Eduardo Costa](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/) | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/caecosta2109-cmyk) |
+|  Team Member  | [Enzo Ferreira Martins de Paiva](https://www.linkedin.com/in/enzo-ferreira-ba6619419/) | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-ferreira-ba6619419/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ZenzoFerreira) |
+|  Team Member  | [Giovanna Ferreira](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/giovannaferreira304-stack) |
 |  Team Member  | Juan Pereira Justino                   | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/juanpereirajustino-tech) |
 |  Team Member  | Marcio Tavares da Rocha                | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/) |
-|  Team Member  | Thais Helena Gomes Ambrósio            | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/thaishelenaambrosio1985-dev) |
+|  Team Member  | [Thais Helena Gomes Ambrósio](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/) | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/thaishelenaambrosio1985-dev) |
 
 
 # Objetivo do Projeto
@@ -49,29 +51,31 @@ Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plat
 | Tecnologia | Uso no projeto | Requisito |
 |------------|----------------|-----------|
 | Google Colab | Acesso e organização dos dados públicos e institucionais | RN.P.1 |
-| Python 3+ | Extração, filtragem (município de SJC) e tratamento dos dados da RAIS | RN.P.2 |
-| Power BI | Visualização dos dados no Observatório | RN.P.3 |
+| Python 3+ (pandas e numpy) | Extração, filtragem (município de SJC), verificação da qualidade e tratamento dos dados da RAIS | RN.P.2 |
+| Power BI | Modelagem dos dados (modelo em estrela) e visualização no Observatório | RN.P.3 |
 | GitHub | Versionamento do código e documentação técnica | RN.P.4 |
 | Anthropic Claude | Criação da identidade visual e do background do painel | RN.P.4 |
 
 
-# Fonte dos Dados
+# Fontes dos Dados
+
+Bases de dados utilizadas na construção do dashboard ao longo das sprints.
+
+| Fonte | Conteúdo utilizado | Uso no dashboard | Sprint |
+|-------|--------------------|------------------|:------:|
+| [RAIS Estabelecimentos – Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024) | Arquivo público `RAIS_ESTAB_PUB`, ano-base 2024, filtrado para São José dos Campos (código IBGE `354990`) | Tabela fato com os estabelecimentos e os vínculos ativos (CLT e estatutários) | 1, 2 e 3 |
+| [CONCLA/IBGE – Comissão Nacional de Classificação](https://concla.ibge.gov.br/) | Tabelas oficiais da CNAE 2.0 (seção, divisão, grupo, classe e subclasse), da CNAE 95 e dos subsetores do IBGE | Descrição das atividades econômicas, tabela dimensão de atividade, hierarquia CNAE com navegação por níveis e agrupamento dos subsetores em Agropecuária, Indústria, Construção, Comércio e Serviços | 1, 2 e 3 |
+| [Base dos Dados – dicionário da RAIS](https://basedosdados.org/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00?table=86b69f96-0bfe-45da-833b-6edc9a0af213) | Significado dos demais códigos da RAIS | Tabelas dimensão de porte da empresa (faixas de tamanho do estabelecimento), Simples Nacional e natureza jurídica | 1, 2 e 3 |
+| [Mendeley Data – CEPs por bairro](https://data.mendeley.com/datasets/g97jb8fp57/1) | Códigos de CEP com UF, cidade, bairro e logradouro | Tabela dimensão de CEP, com a localização dos estabelecimentos por zona e bairro de São José dos Campos | 3 |
 
 ## RAIS Estabelecimentos
-**RAIS Estabelecimentos** ([Ministério do Trabalho e Emprego](https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/estatisticas-trabalho/rais/rais-2024)), **ano-base 2024**, filtrada para o município de São José dos Campos (código IBGE `354990`).
-
-A RAIS pública não identifica as empresas (não traz CNPJ nem razão social). Por isso, o painel apresenta os dados por setor, atividade econômica, porte e CEP.
+A RAIS mede o estoque de emprego formal em 31 de dezembro. A versão pública não identifica as empresas (não traz CNPJ nem razão social), por isso o painel apresenta os dados por setor, atividade econômica, porte e CEP. A base não informa admissões, desligamentos, remuneração nem investimento em P&D.
 
 ## Relação CEP × Bairro (Mendeley Data)
-Para agrupar os estabelecimentos por **bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no **[Mendeley Data](https://data.mendeley.com/datasets/g97jb8fp57/1)**:
-
-> ZIMMERMANN, Ivan. *Códigos de CEP do Brasil por UF, CIDADE, BAIRRO E LOGRADOURO (Brazil ZIP CODES)*. Mendeley Data, v1, 2019. DOI: [10.17632/g97jb8fp57.1](https://doi.org/10.17632/g97jb8fp57.1)
-
-Essa base não faz parte da RAIS e foi usada só para a classificação por bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
+Para agrupar os estabelecimentos por **zona e bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no Mendeley Data. Essa base não faz parte da RAIS e foi usada só para a classificação por zona e bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
 
 > [!NOTE]
 > Base disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Os CEPs estão atualizados até 2018, então CEPs criados depois disso podem não ter bairro associado.
-
 
 # Personas
 
