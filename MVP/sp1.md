@@ -113,7 +113,8 @@ https://github.com/user-attachments/assets/16512ea3-3a93-4f64-bce4-770e60a05f72
 <img width="1365" height="767" alt="Painel da Sprint 1" src="https://github.com/user-attachments/assets/2cc0f39a-3e2e-41b8-aa45-510b181e1ab4" />
 
 - Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiMzM1ZjFmYzYtMjhiNC00Zjk2LTg0OWItY2ExYjE2NDliMDI1IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9&pageName=b0eda75f0b95818c30e0)
-- Relatório da Sprint 1: [Clique aqui]([Relatorio_Sprint1.pdf](https://github.com/user-attachments/files/35536207/Relatorio_Sprint1.pdf)
+- Relatório da Sprint 1: [Clique aqui](https://github.com/user-attachments/files/35536234/Relatorio_Sprint1.pdf)
+
 
 ---
 
