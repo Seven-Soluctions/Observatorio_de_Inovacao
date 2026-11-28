@@ -74,9 +74,6 @@ A RAIS mede o estoque de emprego formal em 31 de dezembro. A versão pública n�
 ## Relação CEP × Bairro (Mendeley Data)
 Para agrupar os estabelecimentos por **zona e bairro de São José dos Campos**, os CEPs da RAIS foram cruzados com uma base complementar publicada no Mendeley Data. Essa base não faz parte da RAIS e foi usada só para a classificação por zona e bairro. CEPs sem correspondência foram marcados como `Bairro não identificado`.
 
-> [!NOTE]
-> Base disponibilizada sob licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Os CEPs estão atualizados até 2018, então CEPs criados depois disso podem não ter bairro associado.
-
 # Personas
 
 | Tipo de Usuário | Descrição / Interesse Principal | Necessidade Representativa |
