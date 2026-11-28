@@ -153,7 +153,6 @@ As 19 atividades (subclasse CNAE 2.0) com mais de 2.000 vínculos ativos cada fo
 <div align="center">
   <a href="https://www.youtube.com/watch?v=1cJukXYvuT8">
     <img src="https://img.youtube.com/vi/1cJukXYvuT8/maxresdefault.jpg"
-         alt="Vídeo explicativo da Sprint 3 no YouTube"
          width="100%">
   </a>
 </div>
