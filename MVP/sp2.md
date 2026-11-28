@@ -121,8 +121,8 @@ https://github.com/user-attachments/assets/8593fb50-1975-4d2e-b786-70efa1943553
 
 - Notebook de filtragem e refinamento dos dados (Google Colab): [Clique aqui](https://colab.research.google.com/drive/1du7vjnBfTXE3x-BC8cTGXzjk2bXjFn-6?usp=sharing)
 - Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNmMyNDNmMzUtMjk5Yi00ZTM1LTlmY2EtNDlhYzgxZmQzYzhjIiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
-- Relatório da Sprint 2: [Clique aqui]([Relatorio_Sprint2.pdf](https://github.com/user-attachments/files/35535803/Relatorio_Sprint2.pdf)
-)
+- Relatório da Sprint 2: [Clique aqui](https://github.com/user-attachments/files/35535803/Relatorio_Sprint2.pdf)
+
 
 ---
 
