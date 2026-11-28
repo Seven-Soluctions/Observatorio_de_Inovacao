@@ -165,7 +165,7 @@ https://github.com/user-attachments/assets/04d8bdab-3866-4c99-9a2c-cf74f49cc3b2
 <img width="1365" height="767" alt="Página Distribuição Geográfica" src="https://github.com/user-attachments/assets/5afe7264-669f-4e30-be40-542598704c5d" />
 
 - Dashboard publicado (Power BI): [Clique aqui](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)
-- Relatório da Sprint 2: [Clique aqui](https://github.com/user-attachments/files/35537598/Relatorio_Sprint3.pdf)
+- Relatório da Sprint 3: [Clique aqui](https://github.com/user-attachments/files/35537598/Relatorio_Sprint3.pdf)
 
 ---
 
