@@ -24,36 +24,18 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 **Tema do semestre:** Mapeamento do Ecossistema Industrial e de Serviços da Região de São José dos Campos.
 
 # Equipe
+
 |    Função     | Nome | LinkedIn & GitHub |
 | :-----------: | :--- | :---------------: |
-| Product Owner | João Carlos Florencio de Sousa | [![LinkedIn][badge-li]][joao-li] [![GitHub][badge-gh]][joao-gh] |
-| Scrum Master | Maria Gessika da Silva | [![LinkedIn][badge-li]][gessika-li] [![GitHub][badge-gh]][gessika-gh] |
-| Team Member | Carlos Eduardo Costa | [![LinkedIn][badge-li]][carlos-li] [![GitHub][badge-gh]][carlos-gh] |
-| Team Member | Enzo Ferreira Martins de Paiva | [![LinkedIn][badge-li]][enzo-li] [![GitHub][badge-gh]][enzo-gh] |
-| Team Member | Giovanna Ferreira | [![LinkedIn][badge-li]][giovanna-li] [![GitHub][badge-gh]][giovanna-gh] |
-| Team Member | Juan Pereira Justino | [![LinkedIn][badge-li]][juan-li] [![GitHub][badge-gh]][juan-gh] |
-| Team Member | Marcio Tavares da Rocha | [![LinkedIn][badge-li]][marcio-li] [![GitHub][badge-gh]][marcio-gh] |
-| Team Member | Thais Helena Gomes Ambrósio | [![LinkedIn][badge-li]][thais-li] [![GitHub][badge-gh]][thais-gh] |
+| Product Owner | João Carlos Florencio de Sousa | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fsjoaocarlos/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/fsjuao) |
+| Scrum Master | Maria Gessika da Silva | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-gessika-da-silva-44b900153/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/USUARIO_DA_GESSIKA) |
+| Team Member | Carlos Eduardo Costa | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlos-eduardo-costa-13146697/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/caecosta2109-cmyk) |
+| Team Member | Enzo Ferreira Martins de Paiva | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enzo-ferreira-ba6619419/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ZenzoFerreira) |
+| Team Member | Giovanna Ferreira | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giovanna-ferreira-047b13310/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/giovannaferreira304-stack) |
+| Team Member | Juan Pereira Justino | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-justino/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/juanpereirajustino-tech) |
+| Team Member | Marcio Tavares da Rocha | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/m%C3%A1rcio-tavares-a15888452/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/MarcioR0CH4) |
+| Team Member | Thais Helena Gomes Ambrósio | [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/) [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/thaishelenaambrosio1985-dev) |
 
-[badge-li]: https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white
-[badge-gh]: https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white
-
-[joao-li]: https://www.linkedin.com/in/fsjoaocarlos/
-[joao-gh]: https://github.com/fsjuao
-[gessika-li]: https://www.linkedin.com/in/
-[gessika-gh]: https://github.com/
-[carlos-li]: https://www.linkedin.com/in/carlos-eduardo-costa-13146697/
-[carlos-gh]: https://github.com/caecosta2109-cmyk
-[enzo-li]: https://www.linkedin.com/in/enzo-ferreira-ba6619419/
-[enzo-gh]: https://github.com/ZenzoFerreira
-[giovanna-li]: https://www.linkedin.com/in/giovanna-ferreira-047b13310/
-[giovanna-gh]: https://github.com/giovannaferreira304-stack
-[juan-li]: https://www.linkedin.com/in/juan-justino/
-[juan-gh]: https://github.com/juanpereirajustino-tech
-[marcio-li]: https://www.linkedin.com/in/m%C3%A1rcio-tavares-a15888452/
-[marcio-gh]: https://github.com/MarcioR0CH4
-[thais-li]: https://www.linkedin.com/in/thais-ambr%C3%B3sio-3a3a581aa/
-[thais-gh]: https://github.com/thaishelenaambrosio1985-dev
 
 # Objetivo do Projeto
 Desenvolver o **Observatório de Inovação de São José dos Campos**, uma plataforma de visualização de dados em Power BI que apresenta indicadores econômicos e produtivos do município a partir da base da **RAIS** (Relação Anual de Informações Sociais), do Ministério do Trabalho e Emprego, visando:
