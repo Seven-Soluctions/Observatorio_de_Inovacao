@@ -2,7 +2,7 @@
 
 Desenvolver o Observatório de Inovação de São José dos Campos, uma solução de análise e visualização de dados em Power BI que mapeia o ecossistema industrial e de serviços do município a partir de dados da Relação Anual de Informações Sociais (RAIS), em parceria com o CADI e a Secretaria de Inovação e Desenvolvimento Econômico de São José dos Campos.
 
-**[Acesse o Observatório publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)** (acesso público, sem necessidade de login)
+**[Acesse o Observatório publicado no Power BI](https://app.powerbi.com/view?r=eyJrIjoiNzRjZTlmMTgtZGE0NC00ZjZmLThiMTMtNjczNTg2MzIyN2Q3IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9)**
 
 # Índice
 * [Projeto (API)](#projeto-api)
